@@ -1,0 +1,13 @@
+header {
+  color: var(--white);
+  background: var(--c-prymary);
+
+  .header-container {
+    max-width: 1920rem;
+    width: 100%;
+    margin-inline: auto;
+    padding: 20rem 0;
+    display: flex;
+    gap: 20rem;
+  }
+}

@@ -1,0 +1,7 @@
+@import 'vendors/reset';
+@import 'utils/mixins';
+@import 'utils//vars';
+@import 'layout/base';
+@import '../components/Header';
+@import '../pages/Home/Home.scss';
+@import '../components/Footer';

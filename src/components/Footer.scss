@@ -1,0 +1,11 @@
+footer {
+  color: var(--white);
+  background: var(--black);
+
+  .footer-container {
+    max-width: 1920rem;
+    width: 100%;
+    padding: 50rem 0;
+    margin-inline: auto;
+  }
+}

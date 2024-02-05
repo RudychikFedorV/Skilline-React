@@ -1,0 +1,59 @@
+html {
+  font-size: 1px;
+
+  @include desktop {
+    font-size: 0.95px;
+  }
+  @include desktop-small {
+    font-size: 0.9px;
+  }
+  @include tablet {
+    font-size: 0.85px;
+  }
+
+  @include tablet-small {
+    font-size: 0.8px;
+  }
+
+  @include mobile {
+    font-size: 0.7px;
+  }
+
+  @include mobile-small {
+    font-size: 0.6px;
+  }
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: var(--ff);
+  font-size: 16rem;
+}
+
+// .wrapper {
+//   max-width: 100%;
+//   margin-left: auto;
+//   margin-right: auto;
+//   margin-inline: auto;
+//   overflow-x: hidden;
+// }
+
+.container {
+  max-width: 1920rem;
+  width: 100%;
+  margin-inline: auto;
+  padding: 0 200rem;
+
+  @include desktop-small {
+    padding: 50rem;
+  }
+
+  @include tablet {
+    padding: 20rem;
+  }
+}
